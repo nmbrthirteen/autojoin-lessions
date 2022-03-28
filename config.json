@@ -1,0 +1,41 @@
+{
+  "email": "siradze.nikoloz9@students.gov.ge",
+  "password": "samagatka120",
+
+  "run_at_time": "",
+
+  "meeting_mode": 1,
+  "organisation_num" : 0,
+  "random_delay": [0,0],
+  "check_interval": 10,
+
+  "join_message": "გამარჯობა",
+
+  "auto_leave_after_min": 30,
+  "leave_if_last": true,
+  "leave_threshold_number": -1,
+  "leave_threshold_percentage": -1,
+  "pause_search": false,
+
+  "headless" : false,
+  "mute_audio": true,
+  "chrome_type": "google-chrome",
+
+  "blacklist": [
+    {
+      "team_name": "",
+      "channel_names": [
+        "First Channel to blacklist in this team",
+        "Second Channel to blacklist"
+      ]
+    },
+     {
+      "team_name": "",
+      "channel_names": [
+      ]
+    }
+  ],
+  "blacklist_meeting_re": "",
+
+  "discord_webhook_url" : ""
+}
